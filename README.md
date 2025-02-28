@@ -20,7 +20,6 @@ You can also validate using the below command :
  ./elastic-agent otel --config otel-config.yml
 
 
- <img width="1045" alt="image" src="https://github.com/user-attachments/assets/5e6944aa-1700-4777-8fd8-e7b030bf4d38" />
 
 
 FOR APM:
