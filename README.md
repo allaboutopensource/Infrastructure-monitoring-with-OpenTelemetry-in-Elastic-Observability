@@ -1,4 +1,7 @@
 Infrastructure-monitoring-with-OpenTelemetry-in-Elastic-Observability
+
+<img width="754" alt="image" src="https://github.com/user-attachments/assets/256e73b5-02b9-4724-b5ee-779b01e2d8cb" />
+
 we are exploring as how to use the OpenTelemetry (OTel) collector to capture core system metrics like cpu,memory,disk,network,processes etc from various sources such as linux vm, openstack vm, amazon EC2, Google Compute, and individual physical/virtual systems running Linux and export these metrics/log/tracing to the centrallized log location like elasticsearch in this case.
 
 The **hostmetrics** receiver in OpenTelemetry collects system-level metrics such as CPU, memory, and disk usage from the host machine in OTel Schema.
