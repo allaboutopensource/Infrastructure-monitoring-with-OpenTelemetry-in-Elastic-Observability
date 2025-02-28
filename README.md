@@ -30,9 +30,13 @@ FOR APM:
 we need to use the OTLP exporter. In **hostmetrics** receiver we collects system-level metrics such as CPU, memory, and disk usage from the host machine in OTel Schema. These metrics are sent to the OTLP Exporter, which forwards them to the APM Server endpoint. 
 
 exporters:
+
   otlphttp:
+  
     endpoint: <mis_endpoint>
+    
     tls:
+    
       insecure: false
     headers:
       Authorization: <api_key_>
